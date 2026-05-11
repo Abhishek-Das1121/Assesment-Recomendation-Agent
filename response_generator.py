@@ -31,7 +31,7 @@ MISSING_INFO_MAP = {
 
 
 def _get_client() -> Groq:
-    return Groq(api_key=os.environ["GROQ_API_KEY"])
+    return Groq(api_key=os.environ["YOUR_API_KEY"]) #use your API key , Groq API is prefered
 
 
 def _format_conversation(messages: list[dict]) -> str:
