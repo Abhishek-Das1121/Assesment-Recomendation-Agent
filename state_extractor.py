@@ -57,7 +57,7 @@ Conversation:
 
 
 def _get_client() -> Groq:
-    return Groq(api_key=os.environ["GROQ_API_KEY"])
+    return Groq(api_key=os.environ["YOUR_API_KEY"]) #use your API key, Groq API is preferd
 
 
 def extract_state(messages: list[dict]) -> dict:
